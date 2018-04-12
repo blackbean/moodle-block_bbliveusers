@@ -1,4 +1,4 @@
-# moodle-local_bbliveusers
+# BlackBean LiveUsers
 BlackBean Live Users (https://github.com/blackbean/BBLiveUsers) is a plugin for the Moodle LMS Platform (https://www.moodle.org) that monitors the exact number of online users per course in realtime, even if they spend hours watching a single video, for example, without ever refreshing a single page.
 
 This plugin was conceived because many of our corporate clients had the exactly same problem with Online Users Block: when a user stays longer than 5 minutes whatching a video, they are not considered as an online user anymore. Course, we could adjust the block's minutes threshold but it gets more and more inacurate as higher we go. This is a very big problem when we have all day live events such as video streams. This plugins helped us to have a very precise idea and also allowed our clients to generate accurated reports.
