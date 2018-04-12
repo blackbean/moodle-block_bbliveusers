@@ -631,7 +631,7 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    The BlackBean Live Users <https://github.com/blackbean/BBLiveUsers> is a
+    The BlackBean LiveUsers <https://github.com/blackbean/BBLiveUsers> is a
     plugin for Moodle LMS Platform <https://www.moodle.org>, that monitors the
     exact number of online users per course in realtime, even if they spend hours
     watching a single video, for example, without ever refreshing a single page.
