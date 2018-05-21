@@ -19,7 +19,6 @@
  * General Public License along with this program.
  * If not, see https://www.gnu.org/licenses/
  */
-
 /**
  * @package block_bbliveusers
  * @author Bruno Magalhães <brunomagalhaes@blackbean.com.br>

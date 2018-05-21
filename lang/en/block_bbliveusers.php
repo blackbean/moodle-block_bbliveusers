@@ -19,7 +19,6 @@
  * General Public License along with this program.
  * If not, see https://www.gnu.org/licenses/
  */
-
 /**
  * @package block_bbliveusers
  * @author Bruno Magalhães <brunomagalhaes@blackbean.com.br>
@@ -38,15 +37,15 @@ $string['YmdHis'] = 'Y-m-d H:i:s';
 /**
  *
  */
-$string['pluginname'] = 'Live users';
-$string['bbliveusers'] = 'Live users';
-$string['block/bbliveusers'] = 'Live users';
-$string['block_bbliveusers'] = 'Live users';
+$string['pluginname'] = 'LiveUsers';
+$string['bbliveusers'] = 'LiveUsers';
+$string['block/bbliveusers'] = 'LiveUsers';
+$string['block_bbliveusers'] = 'LiveUsers';
 
 /**
  *
  */
-$string['title_live'] = 'Life';
+$string['title_live'] = 'Live';
 $string['message_javascript'] = 'If you are seeing this message, probably your javascript is disable. Please, enable it to view the live users chart.';
 
 /**
