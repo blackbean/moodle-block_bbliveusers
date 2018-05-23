@@ -14,16 +14,13 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+defined('MOODLE_INTERNAL') || exit(0);
+
 /**
  * @package block_bbliveusers
  * @author Bruno Magalhães <brunomagalhaes@blackbean.com.br>
  * @copyright BlackBean Technologies Ltda <https://www.blackbean.com.br>
  * @license http://www.gnu.org/copyleft/gpl.html
- */
-defined('MOODLE_INTERNAL') || exit(0);
-
-/**
- *
  */
 class block_bbliveusers extends block_base
 {
@@ -32,8 +29,7 @@ class block_bbliveusers extends block_base
      *
      * @return void
      */
-    public function init()
-    {
+    public function init() {
         $this->title = get_string('title_live', 'block_bbliveusers');
     }
 
@@ -42,30 +38,16 @@ class block_bbliveusers extends block_base
      *
      * @return stdclass
      */
-    public function get_content()
-    {
-        /**
-         *
-         */
+    public function get_content() {
         global $COURSE;
 
-        /**
-         *
-         */
         $courseid = isset($COURSE->id) ? max(0, (integer)$COURSE->id) : 0;
         $limit = 20;
 
-        /**
-         *
-         */
-        if($this->content !== null)
-        {
+        if($this->content !== null) {
             return($this->content);
         }
 
-        /**
-         *
-         */
         $this->content = new stdClass;
         $this->content->header = '';
         $this->content->text = '<div id="block-bbliveusers-chart"><noscript>'.get_string('message_javascript', 'block_bbliveusers').'</noscript></div>';
@@ -163,9 +145,6 @@ window.setInterval(function(){
 }, '.$limit.'*1000);
 </script>';
 
-        /**
-         *
-         */
         return($this->content);
     }
 }
