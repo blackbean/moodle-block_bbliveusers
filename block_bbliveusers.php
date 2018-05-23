@@ -48,8 +48,8 @@ class block_bbliveusers extends block_base
         /**
          * 
          */
-        $course_id = isset($COURSE->id) ? max(0, (integer)$COURSE->id) : 0;
-        $user_id = isset($USER->id) ? max(0, (integer)$USER->id) : 0;
+        $courseid = isset($COURSE->id) ? max(0, (integer)$COURSE->id) : 0;
+        $userid = isset($USER->id) ? max(0, (integer)$USER->id) : 0;
         $limit = 20;
 
         /**
@@ -155,7 +155,7 @@ window.setInterval(function(){
             }
         }
     };
-    request.open("GET","/local/bbliveusers/count.php?course_id='.$course_id.'&limit='.$limit.'",true);
+    request.open("GET","/local/bbliveusers/count.php?courseid='.$courseid.'&limit='.$limit.'",true);
     request.send();
 }, '.$limit.'*1000);
 </script>';
