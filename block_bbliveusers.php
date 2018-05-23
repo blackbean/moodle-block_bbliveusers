@@ -44,13 +44,15 @@ class block_bbliveusers extends block_base
         $courseid = isset($COURSE->id) ? max(0, (integer)$COURSE->id) : 0;
         $limit = 20;
 
-        if($this->content !== null) {
+        if ($this->content !== null) {
             return($this->content);
         }
 
         $this->content = new stdClass;
         $this->content->header = '';
-        $this->content->text = '<div id="block-bbliveusers-chart"><noscript>'.get_string('message_javascript', 'block_bbliveusers').'</noscript></div>';
+        $this->content->text = '<div id="block-bbliveusers-chart"><noscript>'.
+                                get_string('message_javascript', 'block_bbliveusers').
+                                '</noscript></div>';
         $this->content->footer = '<link type="text/css" href="/blocks/bbliveusers/chartist.css" media="all" rel="stylesheet"/>';
         $this->content->footer .= '<script type="text/javascript" src="/blocks/bbliveusers/chartist.js"></script>';
         $this->content->footer .= '<script type="text/javascript">
@@ -93,9 +95,9 @@ window.setInterval(function(){
                             minutes = parseInt(label.getMinutes());
                             seconds = parseInt(label.getSeconds());
                             seconds = (seconds - (seconds % '.$limit.'));
-                            if(hours < 10) hours = "0" + hours;
-                            if(minutes < 10) minutes = "0" + minutes;
-                            if(seconds < 10) seconds = "0" + seconds;
+                            if(hours<10) hours = "0" + hours;
+                            if(minutes<10) minutes = "0" + minutes;
+                            if(seconds<10) seconds = "0" + seconds;
                             if((toggle == 0) || (toggle % 5) == 0){
                                 labels.push(hours + ":" + minutes + ":" + seconds);
                             }else{
@@ -115,16 +117,16 @@ window.setInterval(function(){
                     labels.shift();
                     values.shift();
                     if(block = document.getElementById("block-bbliveusers-chart")){
-                        if(block.clientWidth < 200){
+                        if(block.clientWidth<200){
                             chart.update({labels:labels.slice(-10),
                                             series:[values.slice(-10)]});
-                        } else if(block.clientWidth < 400){
+                        } else if(block.clientWidth<400){
                             chart.update({labels:labels.slice(-20),
                                             series:[values.slice(-20)]});
-                        } else if(block.clientWidth < 600){
+                        } else if(block.clientWidth<600){
                             chart.update({labels:labels.slice(-30),
                                             series:[values.slice(-30)]});
-                        } else if(block.clientWidth < 800){
+                        } else if(block.clientWidth<800){
                             chart.update({labels:labels.slice(-40),
                                             series:[values.slice(-40)]});
                         } else {
