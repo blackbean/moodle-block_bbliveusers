@@ -23,13 +23,13 @@
 defined('MOODLE_INTERNAL') || exit(0);
 
 /**
- * 
+ *
  */
 class block_bbliveusers extends block_base
 {
     /**
      * [init]
-     * 
+     *
      * @return void
      */
     public function init()
@@ -39,24 +39,24 @@ class block_bbliveusers extends block_base
 
     /**
      * [get_content]
-     * 
+     *
      * @return stdclass
      */
     public function get_content()
     {
         /**
-         * 
+         *
          */
         global $COURSE, $USER;
 
         /**
-         * 
+         *
          */
         $courseid = isset($COURSE->id) ? max(0, (integer)$COURSE->id) : 0;
         $limit = 20;
 
         /**
-         * 
+         *
          */
         if($this->content !== null)
         {
@@ -64,7 +64,7 @@ class block_bbliveusers extends block_base
         }
 
         /**
-         * 
+         *
          */
         $this->content = new stdClass;
         $this->content->header = '';
@@ -164,7 +164,7 @@ window.setInterval(function(){
 </script>';
 
         /**
-         * 
+         *
          */
         return($this->content);
     }

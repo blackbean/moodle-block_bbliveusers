@@ -23,6 +23,6 @@
 defined('MOODLE_INTERNAL') || exit(0);
 
 /**
- * 
+ *
  */
 exit(0);
