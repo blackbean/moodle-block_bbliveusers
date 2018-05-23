@@ -57,7 +57,7 @@ class block_bbliveusers extends block_base
         $this->content->footer .= '<script type="text/javascript" src="/blocks/bbliveusers/chartist.js"></script>';
         $this->content->footer .= '<script type="text/javascript">
 var toggle = 0;
-var labels = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",];
+var labels = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
 var values = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 var chart = new Chartist.Bar("#block-bbliveusers-chart",{series:[values]},{
 fullWidth: true,
