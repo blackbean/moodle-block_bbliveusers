@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -20,5 +19,10 @@
  * @author Bruno Magalhães <brunomagalhaes@blackbean.com.br>
  * @copyright BlackBean Technologies Ltda <https://www.blackbean.com.br>
  * @license http://www.gnu.org/copyleft/gpl.html
+ */
+defined('MOODLE_INTERNAL') || exit(0);
+
+/**
+ * 
  */
 exit(0);

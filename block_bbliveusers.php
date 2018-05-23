@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -20,6 +19,11 @@
  * @author Bruno Magalhães <brunomagalhaes@blackbean.com.br>
  * @copyright BlackBean Technologies Ltda <https://www.blackbean.com.br>
  * @license http://www.gnu.org/copyleft/gpl.html
+ */
+defined('MOODLE_INTERNAL') || exit(0);
+
+/**
+ * 
  */
 class block_bbliveusers extends block_base
 {
@@ -43,13 +47,12 @@ class block_bbliveusers extends block_base
         /**
          * 
          */
-        global $COURSE, $USER, $PAGE, $CFG;
+        global $COURSE, $USER;
 
         /**
          * 
          */
         $courseid = isset($COURSE->id) ? max(0, (integer)$COURSE->id) : 0;
-        $userid = isset($USER->id) ? max(0, (integer)$USER->id) : 0;
         $limit = 20;
 
         /**
