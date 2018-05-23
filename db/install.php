@@ -25,8 +25,7 @@ defined('MOODLE_INTERNAL') || exit(0);
 /**
  * @return boolean
  */
-function xmldb_block_bbliveusers_install()
-{
+function xmldb_block_bbliveusers_install() {
     /**
      *
      */

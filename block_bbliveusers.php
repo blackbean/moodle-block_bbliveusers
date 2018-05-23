@@ -47,7 +47,7 @@ class block_bbliveusers extends block_base
         /**
          *
          */
-        global $COURSE, $USER;
+        global $COURSE;
 
         /**
          *
