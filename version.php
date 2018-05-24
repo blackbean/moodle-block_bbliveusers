@@ -14,14 +14,14 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-defined('MOODLE_INTERNAL') || exit(0);
-
 /**
  * @package block_bbliveusers
  * @author Bruno Magalhães <brunomagalhaes@blackbean.com.br>
  * @copyright BlackBean Technologies Ltda <https://www.blackbean.com.br>
  * @license http://www.gnu.org/copyleft/gpl.html
  */
+defined('MOODLE_INTERNAL') || exit(0);
+
 $plugin->component = 'block_bbliveusers';
 $plugin->release = '1.0.1';
 $plugin->version = 2018052300;
