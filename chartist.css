@@ -40,11 +40,6 @@
 .ct-chart-bar .ct-label,
 .ct-chart-line .ct-label {
     display: block;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
 }
 
 .ct-chart-donut .ct-label,
