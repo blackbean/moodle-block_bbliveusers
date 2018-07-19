@@ -23,10 +23,10 @@
 defined('MOODLE_INTERNAL') || exit(0);
 
 $plugin->component = 'block_bbliveusers';
-$plugin->release = '1.0.1';
-$plugin->version = 2018052300;
+$plugin->release = '1.0.2';
+$plugin->version = 2018072000;
 $plugin->maturity = MATURITY_BETA;
 $plugin->requires = 2016052311;
 $plugin->dependencies = [
-    'local_bbliveusers' => 2018052300
+    'local_bbliveusers' => 2018072000
 ];
