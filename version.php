@@ -22,6 +22,7 @@
  */
 defined('MOODLE_INTERNAL') || exit(0);
 
+// Defining this plug-in metadata.
 $plugin->component = 'block_bbliveusers';
 $plugin->release = '1.0.2';
 $plugin->version = 2018072000;

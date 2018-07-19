@@ -22,4 +22,5 @@
  */
 defined('MOODLE_INTERNAL') || exit(0);
 
+// Nothing to be done here!
 exit(0);

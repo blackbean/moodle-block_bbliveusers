@@ -22,6 +22,10 @@
  */
 defined('MOODLE_INTERNAL') || exit(0);
 
+/**
+ * This plug-in core class responsible
+ * for rendering this block contents.
+ */
 class block_bbliveusers extends block_base
 {
     /**

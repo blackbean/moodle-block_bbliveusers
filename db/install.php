@@ -23,6 +23,9 @@
 defined('MOODLE_INTERNAL') || exit(0);
 
 /**
+ * This function is responsible for executing the
+ * required routines when installing this plug-in.
+ *
  * @return boolean
  */
 function xmldb_block_bbliveusers_install() {

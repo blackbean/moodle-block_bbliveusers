@@ -22,6 +22,7 @@
  */
 defined('MOODLE_INTERNAL') || exit(0);
 
+// Defining this plug-in required permissions.
 $capabilities = array(
     'block/bbliveusers:myaddinstance' => array(
         'captype' => 'write',

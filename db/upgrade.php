@@ -23,6 +23,9 @@
 defined('MOODLE_INTERNAL') || exit(0);
 
 /**
+ * This function is responsible for executing the
+ * required routines when upgrading this plug-in.
+ *
  * @param integer $oldversion
  * @return boolean
  */
