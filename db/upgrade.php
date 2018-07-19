@@ -27,5 +27,9 @@ defined('MOODLE_INTERNAL') || exit(0);
  * @return boolean
  */
 function xmldb_block_bbliveusers_upgrade($oldversion) {
-    return(true);
+    if ($oldversion) {
+        return(true);
+    } else {
+        return(true);
+    }
 }
