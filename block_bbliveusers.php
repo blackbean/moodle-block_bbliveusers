@@ -57,8 +57,10 @@ class block_bbliveusers extends block_base
         $this->content->footer .= '<script type="text/javascript" src="/blocks/bbliveusers/chartist.js"></script>';
         $this->content->footer .= '<script type="text/javascript">
 var toggle = 0;
-var labels = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
-var values = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+var labels = ["","","","","","","","","","","","","","","","","","","","","","","","","",'.
+             '"","","","","","","","","","","","","","","","","","","","","","","","",""];
+var values = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'.
+             '0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 var chart = new Chartist.Bar("#block-bbliveusers-chart",{series:[values]},{
 fullWidth: true,
 seriesBarDistance: 0,
@@ -66,7 +68,7 @@ chartPadding: {
     top: 20,
     left: 0,
     right: 0,
-    botton: 0},
+    bottom: 0},
 axisX: {
     onlyInteger: true,
     showLabel: true,
@@ -119,23 +121,23 @@ window.setInterval(function(){
                     if(block = document.getElementById("block-bbliveusers-chart")){
                         if(block.clientWidth<200){
                             chart.update({labels:labels.slice(-10),
-                                            series:[values.slice(-10)]});
+                                          series:[values.slice(-10)]});
                         } else if(block.clientWidth<400){
                             chart.update({labels:labels.slice(-20),
-                                            series:[values.slice(-20)]});
+                                          series:[values.slice(-20)]});
                         } else if(block.clientWidth<600){
                             chart.update({labels:labels.slice(-30),
-                                            series:[values.slice(-30)]});
+                                          series:[values.slice(-30)]});
                         } else if(block.clientWidth<800){
                             chart.update({labels:labels.slice(-40),
-                                            series:[values.slice(-40)]});
+                                          series:[values.slice(-40)]});
                         } else {
                             chart.update({labels:labels,
-                                            series:[values]});
+                                          series:[values]});
                         }
                     } else {
                         chart.update({labels:labels,
-                                        series:[values]});
+                                      series:[values]});
                     }
                     toggle += 1;
                 }
