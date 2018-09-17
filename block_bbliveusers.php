@@ -45,10 +45,10 @@ class block_bbliveusers extends block_base
     public function get_content() {
         global $COURSE;
 
-        $courseid = isset($COURSE->id) ? max(0, (integer)$COURSE->id) : 0;
-        $limit = 20;
-
         if (empty($this->content)) {
+            $courseid = isset($COURSE->id) ? max(0, (integer)$COURSE->id) : 0;
+            $limit = 20;
+
             $this->content = new stdClass;
             $this->content->header = '';
             $this->content->text = '<div id="block-bbliveusers-chart"><noscript>'.
