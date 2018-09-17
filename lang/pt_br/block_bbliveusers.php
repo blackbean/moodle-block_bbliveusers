@@ -37,3 +37,4 @@ $string['block_bbliveusers:addinstance'] = 'Adicionar um novo bloco de usuários
 $string['bbliveusers:myaddinstance'] = 'Adicionar um novo bloco de usuários ao vivo ao Painel de Controle.';
 $string['block/bbliveusers:myaddinstance'] = 'Adicionar um novo bloco de usuários ao vivo ao Painel de Controle.';
 $string['block_bbliveusers:myaddinstance'] = 'Adicionar um novo bloco de usuários ao vivo ao Painel de Controle.';
+$string['privacy:metadata'] = 'O plugin Usuários ao Vivo apresenta apenas dados préviamente armazanados.';

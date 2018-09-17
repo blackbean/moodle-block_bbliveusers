@@ -37,3 +37,4 @@ $string['block_bbliveusers:addinstance'] = 'Add a new live users block';
 $string['bbliveusers:myaddinstance'] = 'Add a new live users block to the dashboard';
 $string['block/bbliveusers:myaddinstance'] = 'Add a new live users block to the dashboard';
 $string['block_bbliveusers:myaddinstance'] = 'Add a new live users block to the dashboard';
+$string['privacy:metadata'] = 'The Live Users block only displays existing data.';
