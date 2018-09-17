@@ -30,6 +30,7 @@ $string['bbliveusers'] = 'LiveUsers';
 $string['block/bbliveusers'] = 'LiveUsers';
 $string['block_bbliveusers'] = 'LiveUsers';
 $string['title_live'] = 'Live';
+$string['title_settings'] = 'LiveUsers - Settings';
 $string['message_javascript'] = 'If you are seeing this message, probably your javascript is disable. Please, enable it to view the live users chart.';
 $string['bbliveusers:addinstance'] = 'Add a new live users block';
 $string['block/bbliveusers:addinstance'] = 'Add a new live users block';

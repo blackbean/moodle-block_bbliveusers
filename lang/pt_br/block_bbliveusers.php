@@ -30,6 +30,7 @@ $string['bbliveusers'] = 'Usuários ao vivo';
 $string['block/bbliveusers'] = 'Usuários ao vivo';
 $string['block_bbliveusers'] = 'Usuários ao vivo';
 $string['title_live'] = 'Ao Vivo';
+$string['title_settings'] = 'Usuários ao Vivo - Configurações';
 $string['message_javascript'] = 'Se você está vendo esta mensagem, provavelmente seu javascript está desabilitado. Por favor, habilite-o para ver o gráfico de usuários ao vivo.';
 $string['bbliveusers:addinstance'] = 'Adicionar um novo bloco de usuários ao vivo.';
 $string['block/bbliveusers:addinstance'] = 'Adicionar um novo bloco de usuários ao vivo.';
