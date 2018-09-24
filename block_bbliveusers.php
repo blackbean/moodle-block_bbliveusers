@@ -54,8 +54,8 @@ class block_bbliveusers extends block_base
             $this->content->text = '<div id="block-bbliveusers-chart"><noscript>'.
                                     get_string('message_javascript', 'block_bbliveusers').
                                     '</noscript></div>';
-            $this->content->footer = '<link type="text/css" href="/blocks/bbliveusers/chartist.css" media="all"/>';
-            $this->content->footer .= '<script type="text/javascript" src="/blocks/bbliveusers/chartist.js"></script>';
+            $this->content->footer = '<link type="text/css" href="/blocks/bbliveusers/chartist/chartist.css" media="all"/>';
+            $this->content->footer .= '<script type="text/javascript" src="/blocks/bbliveusers/chartist/chartist.js"></script>';
             $this->content->footer .= '<script type="text/javascript">
 var toggle = 0;
 var labels = ["","","","","","","","","","","","","","","","","","","","","","","","","",'.
